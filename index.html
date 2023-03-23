@@ -12,7 +12,7 @@
 
 
     <meta name="description" content="">
-    <link href='https://fonts.googleapis.com/css?family="Helvetica Neue"' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family="Helvetica Neue"' rel='stylesheet' type='text/css'> -->
     <link rel="alternate" type="application/rss+xml" title="Researcher RSS" href="/feed.xml" />
     <link rel="stylesheet" href="css/main.css">
 
@@ -35,18 +35,24 @@
 </head>
 <body>
     <div class="wrapper">
+
         <div class="navbar container">
 
             <a id="author-name" class="alignable pull-left" href="">Potsawee Manakul (Punpun)</a>
-            <ul id="navlist" class="alignable pull-right navbar-ul">
+            <br>
+            <br>
+            <ul id="navlist" class="alignable pull-left navbar-ul" style="margin-left: 0px; margin-top: 10px;">
 
 
 
-                        <li class="alignable pull-left nav-list"><a target="_blank" href="pdfs/CV.pdf">CV</a>
+                        <li class="alignable pull-left nav-list" style="margin-left: 0px;"><a target="_blank" href="pdfs/CV.pdf">CV </a>
                         <!-- <li class="alignable pull-left nav-list"><a  href="">CV</a>
                         </li> -->
                         |
                         <li class="alignable pull-left nav-list"><a href="https://scholar.google.com/citations?hl=en&user=dVgn6boAAAAJ">Google Scholar</a>
+                        |
+                        </li>
+                        <li class="alignable pull-left nav-list"><a href="https://github.com/potsawee">GitHub</a>
                         |
                         </li>
                         <li class="alignable pull-left nav-list"><a href="#contact">Contact</a>
@@ -68,158 +74,141 @@
 <p> I started doing my PhD under the supervision of <a href="http://mi.eng.cam.ac.uk/~mjfg/">Prof. Mark Gales</a> from October 2019, and my PhD is funded by Cambridge Trust
     (Cambridge International & St John's College Scholarship).<p>
 
-<p>Before starting my PhD, I was an undergraduate student in Engineering at the University of Cambridge (2015-19). I am a member of St John's College (matriculated in 2015).
+<p>During my PhD, I spent 6 months working as an applied scientist intern at Amazon. Before starting my PhD, I was an undergraduate student in Engineering at the University of Cambridge (2015-19).
 
 <!-- <p>Currently, I work as an applied scientist intern at Amazon in Berlin.</p> -->
 <h2 id="research-interests">Research Interests</h2>
 <ul>
   <li>Summarization and Text Generation</li>
-  <li>Summary Evaluation</li>
+  <li>Automatic Evaluation</li>
   <li>Question Generation and Answering</li>
-  <li>Machine Learning for NLP</li>
-  <li>AI for Language Learning (e.g. Grammatical Error Correction/Detection)</li>
-  <!-- <li>Speech Processing</li> -->
+  <li>Natural Language Processing & ML</li>
+  <li>AI for Educational Application (e.g. Grammatical Error Correction/Detection)</li>
 </ul>
 
 <h2 id="publications">Recent Works</h2>
 
-<ol>
+<ul>
     <li>
-            <b>
-            <strong>MQAG: Multiple-choice Question Answering and Generation for Assessing Information Consistency in Summarization</strong>
-            </b>
+            <a href="https://arxiv.org/abs/2303.08896">SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models</a>
             <br>
-            <u>Potsawee Manakul</u>, Adian Liusie, Mark Gales
+            <strong>Potsawee Manakul</strong>, Adian Liusie, Mark Gales
             <br>
             arxiv 2023
-            <br>
-            <a href="https://arxiv.org/abs/2301.12307">[paper]</a>
-            <a href="https://github.com/potsawee/mqag0">[code]</a>
+            <a href="https://github.com/potsawee/selfcheckgpt" style="color: black">[code]</a>
     </li>
     <li>
-            <b>
-            <strong>Podcast Summary Assessment: A Resource for Evaluating Summary Assessment Methods</strong>
-            </b>
+            <a href="https://arxiv.org/abs/2301.12307">MQAG: Multiple-choice Question Answering and Generation for Assessing Information Consistency in Summarization</a>
             <br>
-            <u>Potsawee Manakul</u>, Mark Gales
+            <strong>Potsawee Manakul</strong>, Adian Liusie, Mark Gales
+            <br>
+            arxiv 2023
+            <a href="https://github.com/potsawee/mqag0" style="color: black">[code]</a>
+    </li>
+    <li>
+            <a href="https://arxiv.org/abs/2208.13265">Podcast Summary Assessment: A Resource for Evaluating Summary Assessment Methods</a>
+            <br>
+            <strong>Potsawee Manakul</strong>, Mark Gales
             <br>
             arxiv 2022
-            <br>
-            <a href="https://arxiv.org/abs/2208.13265">[paper]</a>
-            <a href="https://github.com/potsawee/podcast_summary_assessment">[data]</a>
+            <a href="https://github.com/potsawee/podcast_summary_assessment" style="color: black">[data]</a>
     </li>
     <li>
-            <b>
-            <strong>Sparsity and Sentence Structure in Encoder-Decoder Attention of Summarization Systems</strong>
-            </b>
+            <a href="https://aclanthology.org/2021.emnlp-main.739">Sparsity and Sentence Structure in Encoder-Decoder Attention of Summarization Systems</a>
             <br>
-            <u>Potsawee Manakul</u>, Mark Gales
+            <strong>Potsawee Manakul</strong>, Mark Gales
             <br>
             EMNLP 2021
-            <br>
-            <a href="https://aclanthology.org/2021.emnlp-main.739">[paper]</a>
-            <a href="https://github.com/potsawee/encdec_attn_sparse">[code]</a>
+            <a href="https://github.com/potsawee/encdec_attn_sparse" style="color: black">[code]</a>
     </li>
     <li>
-            <b>
-            <strong>Long-Span Summarization via Local Attention and Content Selection</strong>
-            </b>
+            <a href="https://aclanthology.org/2021.acl-long.470/">Long-Span Summarization via Local Attention and Content Selection</a>
             <br>
-            <u>Potsawee Manakul</u>, Mark Gales
+            <strong>Potsawee Manakul</strong>, Mark Gales
             <br>
             ACL 2021
-            <br>
-            <a href="https://aclanthology.org/2021.acl-long.470/">[paper]</a>
             <!-- <a href="https://arxiv.org/abs/2105.03801">[arXiv]</a> -->
-            <a href="https://github.com/potsawee/longsum0">[code]</a>
+            <a href="https://github.com/potsawee/longsum0" style="color: black">[code]</a>
     </li>
     <li>
-            <b>
-            <strong>CUED_SPEECH at TREC 2020 Podcast Summarisation Track</strong>
-            </b>
+            <a href="https://arxiv.org/abs/2012.02535">CUED_SPEECH at TREC 2020 Podcast Summarisation Track</a>
             <br>
-            <u>Potsawee Manakul</u>, Mark Gales
+            <strong>Potsawee Manakul</strong>, Mark Gales
             <br>
             TREC 2020
+            <a href="https://github.com/potsawee/podcast_trec2020" style="color: black">[code]</a>
             <br>
-            <a href="https://podcastsdataset.byspotify.com/", style="color:dimgray">(Won 1st place in the Spotify Podcast Summarisation task 2020)</a>
-            <br>
-            <a href="https://arxiv.org/abs/2012.02535">[paper]</a>
+            <a href="https://podcastsdataset.byspotify.com/", style="color:dimgray">*Won 1st place in the Spotify Podcast Summarisation task 2020</a>
             <!-- <a href="https://trec.nist.gov/pubs/trec29/papers/cued_speech.P.pdf">[paper]</a> -->
-            <a href="https://github.com/potsawee/podcast_trec2020">[code]</a>
+
     </li>
     <li>
-            <b>
-            <strong>Abstractive Spoken Document Summarization using Hierarchical Model with Multi-stage Attention Diversity Optimization</strong>
-            </b>
+            <a href="https://www.isca-speech.org/archive/interspeech_2020/manakul20_interspeech.html">Abstractive Spoken Document Summarization using Hierarchical Model with Multi-stage Attention Diversity Optimization</a>
             <br>
-            <u>Potsawee Manakul</u>, Mark J. F. Gales, Linlin Wang
+            <strong>Potsawee Manakul</strong>, Mark J. F. Gales, Linlin Wang
             <br>
             Interspeech 2020
+            <a href="https://github.com/potsawee/spoken_summ_div" style="color: black">[code]</a>
             <br>
-            <strong, style="color:dimgray">(Best Student Paper Award Finalist)</strong>
+            <strong, style="color:dimgray">*Best Student Paper Award Finalist</strong>
             <br>
-            <a href="https://www.isca-speech.org/archive/interspeech_2020/manakul20_interspeech.html">[paper]</a>
-            <a href="https://github.com/potsawee/spoken_summ_div">[code]</a>
     </li>
     <li>
-            <b>
-            <strong>Disfluency Detection for Spoken Learner English</strong>
-            </b>
+            <a href="https://www.isca-speech.org/archive/slate_2019/lu19_slate.html">Disfluency Detection for Spoken Learner English</a>
             <br>
-            Yiting Lu, Mark J. F. Gales, Katherine M. Knill, <u>Potsawee Manakul</u>, Yu Wang
+            Yiting Lu, Mark J. F. Gales, Katherine M. Knill, <strong>Potsawee Manakul</strong>, Yu Wang
             <br>
             SLaTE workshop at Interspeech 2019
             <br>
-            <a href="https://www.isca-speech.org/archive/slate_2019/lu19_slate.html">[paper]</a>
     </li>
     <li>
-            <b>
-            <strong>Impact of ASR Performance on Spoken Grammatical Error Detection</strong>
-            </b>
+            <a href="https://www.isca-speech.org/archive/interspeech_2019/lu19b_interspeech.html">Impact of ASR Performance on Spoken Grammatical Error Detection</a>
             <br>
-            Yiting Lu, Mark J. F. Gales, Katherine M. Knill, <u>Potsawee Manakul</u>, Linlin Wang, Yu Wang
+            Yiting Lu, Mark J. F. Gales, Katherine M. Knill, <strong>Potsawee Manakul</strong>, Linlin Wang, Yu Wang
             <br>
             Interspeech 2019
             <br>
-            <a href="https://www.isca-speech.org/archive/interspeech_2019/lu19b_interspeech.html">[paper]</a>
     </li>
     <li>
-            <b>
-            <strong>Automatic grammatical error detection of non-native spoken learner English</strong>
-            </b>
+            <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8683080">Automatic grammatical error detection of non-native spoken learner English</a>
             <br>
-            Katherine M. Knill, Mark J. F. Gales, <u>Potsawee Manakul</u>, Andrew P. Caines
+            Katherine M. Knill, Mark J. F. Gales, <strong>Potsawee Manakul</strong>, Andrew P. Caines
             <br>
             ICASSP 2019
             <br>
-            <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8683080">[paper]</a>
     </li>
-</ol>
+<!-- </ol> -->
 <!-- <h2 id="preprints">Preprints & Theses</h2>
-<ol>
+<ol> -->
 
 <li>
-        <b>
-        <strong>Automatic Assessment of English as a Second Language (Grammatical Error Correction and Detection)</strong>
-        </b>
+        <a href="pdfs/pm574_thesis_may2019.pdf">Automatic Assessment of English as a Second Language (Grammatical Error Correction and Detection)</a>
         <br>
-        <u>Potsawee Manakul</u>
+        <strong>Potsawee Manakul</strong>
         <br>
         <i>
         Master's Thesis, Engineering Department, University of Cambridge</i>, 2019
         <br>
-        <a href="pdfs/pm574_thesis_may2019.pdf">[pdf]</a>
 </li>
-</ol> -->
+</ul>
 
 <hr />
-
-<h2 id="teaching">Teaching (Supervision)</h2>
+<h2 id="activity">Professional Acitivity</h2>
+<h3 id="reviwer">Reviewer</h3>
 <ul>
-    <li>3F7 Information Theory and Coding (3rd-year undergraduate)</li>
-    <li>2P7 Vector Calculus, Linear Algebra, Probability (2nd-year undergraduate)</li>
+    <li>Interspeech 2023</li>
+    <li>ICML 2023</li>
+    <li>IEEE Transactions on Audio, Speech, and Language Processing 2022</li>
 </ul>
+<h3 id="teaching">Teaching @ Cambridge</h3>
+<ul>
+    <li>3rd-year Undergraduate Supervision: 3F7 Information Theory and Coding</li>
+    <li>2nd-year Undergraduate Supervision: 2P7 Vector Calculus, Linear Algebra, Probability</li>
+    <li>MPhil in Machine Learning & Machine Intelligence: Introduction to NLP (Lab demonstration)</li>
+    <li>1st-year Undergraduate: Engineering Lego Lab (Lab demonstration)</li>
+
+</ul>
+<hr />
 
 <h2 id="contact">Contact</h2>
 <ul>
@@ -230,7 +219,7 @@
 <hr />
 
                     <p style="text-align: center; margin-bottom: 10px">
-                    <a href="https://github.com/ankitsultana" style="color: black"><small>Page design by Ankit Sultana</small></a>
+                    <a href="https://github.com/ankitsultana" style="color: dimgray"><small>Page design by Ankit Sultana</small></a>
                     </p>
 
 <!-- Tracking -->
